@@ -1,0 +1,18 @@
+GIT
+  remote: git://github.com/hyone/my_docker_rake.git
+  revision: 9bbdc7b9425e82a7280ba3e8b2ba5f1c54e52e30
+  specs:
+    my_docker_rake (0.0.7)
+      rake
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  my_docker_rake!
+  rake
