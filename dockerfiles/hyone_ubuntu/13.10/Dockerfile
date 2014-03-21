@@ -5,8 +5,8 @@ MAINTAINER hyone "hyone.development@gmail.com"
 # RUN echo 'root:root' | chpasswd
 
 ## repository setup
-RUN echo "deb http://archive.ubuntu.com/ubuntu saucy main restricted universe" > /etc/apt/sources.list ; \
-    echo "deb http://archive.ubuntu.com/ubuntu saucy-updates main restricted universe" >> /etc/apt/sources.list ; \
+RUN echo "deb http://jp.archive.ubuntu.com/ubuntu saucy main restricted universe" > /etc/apt/sources.list ; \
+    echo "deb http://jp.archive.ubuntu.com/ubuntu saucy-updates main restricted universe" >> /etc/apt/sources.list ; \
     echo "deb http://security.ubuntu.com/ubuntu saucy-security main restricted universe" >> /etc/apt/sources.list
 
 ## packages

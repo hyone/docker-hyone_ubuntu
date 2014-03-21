@@ -5,8 +5,8 @@ MAINTAINER hyone "hyone.development@gmail.com"
 # RUN echo 'root:root' | chpasswd
 
 ## repository setup
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main restricted universe" > /etc/apt/sources.list ; \
-    echo "deb http://us.archive.ubuntu.com/ubuntu/ precise-updates main restricted universe" >> /etc/apt/sources.list ; \
+RUN echo "deb http://jp.archive.ubuntu.com/ubuntu precise main restricted universe" > /etc/apt/sources.list ; \
+    echo "deb http://jp.archive.ubuntu.com/ubuntu precise-updates main restricted universe" >> /etc/apt/sources.list ; \
     echo "deb http://security.ubuntu.com/ubuntu precise-security main restricted universe" >> /etc/apt/sources.list
 
 ## packages
